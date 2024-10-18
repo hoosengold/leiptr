@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "leiptr"
+version = "0.1.0"
+description = "Thread-safe and multiprocess-safe algorithms and data structures, written in pure Python, with Pydantic support."
+authors = ["hoosengold <73896404+hoosengold@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
